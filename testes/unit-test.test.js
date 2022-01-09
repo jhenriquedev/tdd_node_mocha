@@ -2,11 +2,8 @@ const sqr = require('../src/core/sqr/sqr.js');
 const assert = require('assert'); //assert do node
 const { it } = require('mocha');
 
-//console.log('Testing 1 === 1');
-//assert(1 === 1);
-//assert(1 === 91);
 
-describe('Unit tests', ()=> {
+describe('Unit tests', () => {
     it('Testing 1 === 1', ()=> {
         assert(1 === 1);
     });
