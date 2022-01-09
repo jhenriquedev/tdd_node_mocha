@@ -1,0 +1,17 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node testes/unit-test.test.js",
+    "test:server": "node testes/http-server.test.js",
+    "mocha": "./node_modules/mocha/bin/mocha testes/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.1.3"
+  }
+}
